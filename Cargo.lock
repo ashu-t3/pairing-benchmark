@@ -82,6 +82,7 @@ checksum = "ecb284f9f38cbedcae7e78f33e9a1f813db4e6b8103dacc3a143c2ddf32941aa"
 dependencies = [
  "ark-ec",
  "ark-ff",
+ "ark-r1cs-std",
  "ark-std",
 ]
 
@@ -294,6 +295,7 @@ name = "pairings"
 version = "0.1.0"
 dependencies = [
  "ark-ec",
+ "ark-mnt4-298",
  "ark-mnt6-298",
  "ark-r1cs-std",
  "ark-relations",
