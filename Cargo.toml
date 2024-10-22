@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 ark-ec = "0.4.2"
-ark-mnt6-298 = { version = "0.4.0" }
+ark-mnt6-298 = { version = "0.4.0", features = ["r1cs"] }
 ark-r1cs-std = "0.4.0"
 ark-relations = "0.4.0"
 ark-std = "0.4.0"

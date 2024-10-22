@@ -94,6 +94,7 @@ dependencies = [
  "ark-ec",
  "ark-ff",
  "ark-mnt4-298",
+ "ark-r1cs-std",
  "ark-std",
 ]
 
